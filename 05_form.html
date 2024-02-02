@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>FORM</h1>
+
+    <form>
+      <div>
+        <label for="text2">Text</label>
+        <input type="text" id="text2" value="Standardtext" readonly />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ihre E-Mail eingeben" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="number">Zahl</label>
+        <input type="number" id="number" min="0" />
+      </div>
+
+      <div>
+        <label for="range">Range</label>
+        <input type="range" id="range" min="0" max="10" step="2" />
+      </div>
+
+      <div>
+        <label for="date">Datum</label>
+        <input type="date" id="date" />
+      </div>
+
+      <div>
+        <label for="color">Farbe</label>
+        <input type="color" id="color" />
+      </div>
+
+      <div>
+        <label for="message">Nachricht</label>
+        <br />
+        <textarea id="message" cols="25" rows="5"> </textarea>
+      </div>
+
+      <div>
+        <label for="sex">Ihre Geschlecht</label>
+        <select id="sex">
+          <option value="male">Mann</option>
+          <option value="female" selected>Frau</option>
+          <option value="other">Andere</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Arbeitsaufwand</label>
+        <input type="radio" name="Job" /> 1 <input type="radio" name="Job" /> 2
+        <input type="radio" name="Job" /> 5
+        <input type="radio" name="Job" /> 10+
+      </div>
+
+      <div>
+        <label>Lieblings Essen</label>
+        <input type="checkbox" name="food" /> Kartofel
+        <input type="checkbox" name="food" /> Brot
+        <input type="checkbox" name="food" /> Molukken
+        <input type="checkbox" name="food" /> Apfel
+      </div>
+
+      <input type="submit" value="Formular abschicken" />
+
+      <button type="submit">Formular abschicken</button>
+    </form>
+  </body>
+</html>
